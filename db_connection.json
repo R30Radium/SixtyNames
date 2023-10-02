@@ -1,0 +1,3 @@
+{
+  "ConnectionString": "Server=localhost;Port=6000;User Id=postgres;Password=123;Database=local_db;"
+}
