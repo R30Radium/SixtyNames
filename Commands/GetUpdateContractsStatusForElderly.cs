@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SixtyNames.Commands
 {
-    internal class WriteXmlReport
+    internal class GetUpdateContractsStatusForElderly : ICommand
     {
         #region Constructor
 
-        public WriteXmlReport(string text)
+        public GetUpdateContractsStatusForElderly(string text)
         {
             Text = text;
         }
@@ -24,6 +24,5 @@ namespace SixtyNames.Commands
         public string Response { get; set; }
 
         #endregion
-
     }
 }

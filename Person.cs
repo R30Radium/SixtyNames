@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SixtyNames
 {
+    /// <summary>
+    /// Сущность Person (физлицо)
+    /// </summary>
     internal class Person
     {
         public int Id { get; set; }

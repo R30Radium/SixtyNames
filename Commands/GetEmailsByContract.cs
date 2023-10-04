@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SixtyNames.Commands
 {
-    internal class GetEmailsByContract
+    internal class GetEmailsByContract : ICommand
     {
         #region Constructor
 
